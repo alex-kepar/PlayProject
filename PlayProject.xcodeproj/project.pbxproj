@@ -14,6 +14,7 @@
 		88C5851A1B66B1FA007864F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C585191B66B1FA007864F7 /* Images.xcassets */; };
 		88C5851D1B66B1FA007864F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5851B1B66B1FA007864F7 /* LaunchScreen.xib */; };
 		88C585291B66B1FA007864F7 /* PlayProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C585281B66B1FA007864F7 /* PlayProjectTests.m */; };
+		88EA64C81B68131000E05A2B /* UILabelMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EA64C71B68131000E05A2B /* UILabelMagic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		88C585221B66B1FA007864F7 /* PlayProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C585271B66B1FA007864F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88C585281B66B1FA007864F7 /* PlayProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayProjectTests.m; sourceTree = "<group>"; };
+		88EA64C61B68131000E05A2B /* UILabelMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelMagic.h; sourceTree = "<group>"; };
+		88EA64C71B68131000E05A2B /* UILabelMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelMagic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				88C585191B66B1FA007864F7 /* Images.xcassets */,
 				88C5851B1B66B1FA007864F7 /* LaunchScreen.xib */,
 				88C5850C1B66B1FA007864F7 /* Supporting Files */,
+				88EA64C61B68131000E05A2B /* UILabelMagic.h */,
+				88EA64C71B68131000E05A2B /* UILabelMagic.m */,
 			);
 			path = PlayProject;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EA64C81B68131000E05A2B /* UILabelMagic.m in Sources */,
 				88C585151B66B1FA007864F7 /* ViewController.m in Sources */,
 				88C585121B66B1FA007864F7 /* AppDelegate.m in Sources */,
 				88C5850F1B66B1FA007864F7 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				88C5852E1B66B1FA007864F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88C5852F1B66B1FA007864F7 /* Build configuration list for PBXNativeTarget "PlayProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				88C585311B66B1FA007864F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
